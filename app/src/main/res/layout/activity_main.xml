@@ -5,8 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/tvHolaFB"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="24dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilData"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="Escribe en Firebase"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/ic_send"
+            style="@style/Widget.Material3.MaterialTimePicker.ImageButton"
+            />
+    </LinearLayout>
 
     <TextView
+        android:id="@+id/tvHolaFB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"

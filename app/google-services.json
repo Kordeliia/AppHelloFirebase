@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "26563756789",
+    "firebase_url": "https://kotlinfirebase-b7622-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "kotlinfirebase-b7622",
     "storage_bucket": "kotlinfirebase-b7622.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:26563756789:android:63a19b7aecb7962397bbbc",
+        "mobilesdk_app_id": "1:26563756789:android:a04d45a9eea831ce97bbbc",
         "android_client_info": {
           "package_name": "com.example.holafirebase"
         }
